@@ -21,4 +21,4 @@ Zenext is an Android Application, and works in conjunction with Google Assistant
 7. If using an Android device, please visit https://android.jlelse.eu/connect-android-device-with-wifi-within-android-studio-3b1bc00c1e17
 8. Happy running Zenext!!
 
-<p align="center"><img src="images/Zenext_New.JPG" width="650" /></p>
+<p align="center"><img src="Zenext_New.JPG" width="650" /></p>
