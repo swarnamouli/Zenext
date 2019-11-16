@@ -22,7 +22,7 @@ Zenext is an Android Application, and works in conjunction with Google Assistant
 
 ## Instructions on running Zenext in Android Phone
 1. An Android Phone with latest version installed.
-2. Download the app-debug.apk file in the Android mobile.
+2. Download the app-debug.apk: https://github.com/swarnamouli/Zenext/blob/master/app-debug.apk file in the Android mobile.
 3. Follow these steps for downloading the application successfully in the Android Mobile.
 <p align="center"><img src="Zen_download.JPG" width="650" /></p>
 4. Happy Running Zenext in Android!!
