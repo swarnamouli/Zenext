@@ -9,7 +9,7 @@ The application provides both manual and voice prompt with wake word trigger, hi
 After extensive SME User Research(spanning from Indiana Police Department(PD), Chicago PD, Ohio PD, CMU PD and New York PD and User Acceptance Testing, Zenext is CJIS and HIPAA Compliant, built on the IBM Watson Cloud.
 Zenext is an Android Application, and works in conjunction with Google Assistant, built on the IBM Watson Cloud, and is envisioned to harnesses the powerful database structure and IoT platform of Watson Cloud.
 
-<p align="center"><img src="images/architecture.png"/></p>
+<p align="center"><img src="Zenext_arch.JPG"/></p>
 
 ## Instructions on running Zenext
 1. Software requirements are Android Studio and IBM Watson cloud account.  
