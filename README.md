@@ -11,14 +11,21 @@ Zenext is an Android Application, and works in conjunction with Google Assistant
 
 <p align="center"><img src="Zenext_arch.JPG"/></p>
 
-## Instructions on running Zenext
+## Instructions on running Zenext in Emulator
 1. Software requirements are Android Studio and IBM Watson cloud account.  
 2. Clone the github repo: https://github.com/swarnamouli/chatbot-watson-android/ and save it to your local machine.
 3. An IBM Watson API has been used to integrate Android Studio with IBM Watson Cloud. 
 4. Change the API Key and URL for the Watson services as per your own credentials in the chatbot-watson-android/app/scr/main/res/values/config.xml
 5. Save all changes and run the application
-6. If using an Android emulator, go to Tools/AVD Manager and choose the specific emulator of choice
-7. If using an Android device, please visit https://android.jlelse.eu/connect-android-device-with-wifi-within-android-studio-3b1bc00c1e17
-8. Happy running Zenext!!
+6. For Android emulator, go to Tools/AVD Manager and choose the specific emulator of choice
+7. Happy running Zenext in Emulator!!
+
+## Instructions on running Zenext in Android Phone
+1. An Android Phone with latest version installed.
+2. Download the app-debug.apk file in the Android mobile.
+3. Follow these steps for downloading the application successfully in the Android Mobile.
+<p align="center"><img src="Zen_download.JPG" width="650" /></p>
+4. Happy Running Zenext in Android!!
 
 <p align="center"><img src="Zenext_New.JPG" width="650" /></p>
+
