@@ -1,0 +1,2959 @@
+﻿{
+  "name": "Zenext",
+  "intents": [
+    {
+      "intent": "suspense2",
+      "examples": [
+        {
+          "text": "10 for a warrant check on white male subject last name is echo Victor alpha November Sierra first name is Mike India Charlie Hotel alpha echo Lima little initials are Romeo DOB is twelve twenty eighty eight."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "select_detail",
+      "examples": [
+        {
+          "text": "What is the limit for glasses?"
+        },
+        {
+          "text": "I need the term for"
+        },
+        {
+          "text": "Hi Ana, I have a cavity that needs to be filled and I want to know what my coverage is"
+        },
+        {
+          "text": "I need the code for"
+        },
+        {
+          "text": "till now nothing but I will have to see my dentist next week and wonder which services are covered by my plan"
+        },
+        {
+          "text": "What is my term for"
+        },
+        {
+          "text": "What is the code for"
+        },
+        {
+          "text": "eye glasses"
+        },
+        {
+          "text": "When does my plan end?"
+        }
+      ]
+    },
+    {
+      "intent": "suspense4",
+      "examples": [
+        {
+          "text": "2 oh 1 that's 10 2"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "suspense3",
+      "examples": [
+        {
+          "text": "2 oh 1"
+        },
+        {
+          "text": "2 5 1"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "controlroom_connect",
+      "examples": [
+        {
+          "text": "Option 1"
+        },
+        {
+          "text": "Option Two"
+        },
+        {
+          "text": "Connect me to the Sheriff's office"
+        },
+        {
+          "text": "Option Four"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "select_procedure",
+      "examples": [
+        {
+          "text": "I need information about eye wear"
+        },
+        {
+          "text": "Tell me what my limit is for eye wear"
+        },
+        {
+          "text": "I need information about glasses"
+        },
+        {
+          "text": "Yes I need to know my policy for buying new glasses"
+        },
+        {
+          "text": "Tell me what my coverage is"
+        },
+        {
+          "text": "Tell me what my limit is"
+        },
+        {
+          "text": "I need information about tooth repair"
+        },
+        {
+          "text": "I need information about therapy"
+        }
+      ]
+    },
+    {
+      "intent": "investigation",
+      "examples": [
+        {
+          "text": "Any serious offences?"
+        },
+        {
+          "text": "Other serious offences?"
+        },
+        {
+          "text": "Any serious law violations?"
+        },
+        {
+          "text": "Any case of felony or offence?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "location_sharing",
+      "examples": [
+        {
+          "text": "Need dispatch units urgently to my current location 46202."
+        },
+        {
+          "text": "How far is the nearest Dispatch unit from my current location 46202"
+        },
+        {
+          "text": "How far are the Dispatch units from 46202?"
+        },
+        {
+          "text": "send me units to my current location 345 Redwood Drive, Scahumburg"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "goodbye",
+      "examples": [
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Bye"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Later"
+        },
+        {
+          "text": "I don't need any more help"
+        },
+        {
+          "text": "Nothing more"
+        },
+        {
+          "text": "See ya"
+        },
+        {
+          "text": "That's all"
+        }
+      ]
+    },
+    {
+      "intent": "get_info",
+      "examples": [
+        {
+          "text": "I need some information"
+        },
+        {
+          "text": "Can I visit"
+        },
+        {
+          "text": "I don't need to file a claim"
+        },
+        {
+          "text": "Information"
+        },
+        {
+          "text": "I need info"
+        },
+        {
+          "text": "When does my policy start?"
+        },
+        {
+          "text": "When does my policy end?"
+        },
+        {
+          "text": "What is my policy?"
+        },
+        {
+          "text": "What is my coverage?"
+        },
+        {
+          "text": "Am I covered"
+        },
+        {
+          "text": "I need more information"
+        },
+        {
+          "text": "I want to know more"
+        },
+        {
+          "text": "Do I have"
+        },
+        {
+          "text": "What are my benefits?"
+        },
+        {
+          "text": "tell me about my plan"
+        },
+        {
+          "text": "Tell me what I need to know"
+        }
+      ]
+    },
+    {
+      "intent": "Passenger_information",
+      "examples": [
+        {
+          "text": "drivers l"
+        },
+        {
+          "text": "Drivers license"
+        },
+        {
+          "text": "DL"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "select_service",
+      "examples": [
+        {
+          "text": "I need information about physical"
+        },
+        {
+          "text": "I need details about my dental"
+        },
+        {
+          "text": "I want some details on my vision plan"
+        },
+        {
+          "text": "I need information about my vision plan"
+        },
+        {
+          "text": "I need information about my dental plan"
+        },
+        {
+          "text": "I want some info about my vision plan"
+        },
+        {
+          "text": "Vision"
+        },
+        {
+          "text": "Need info about dental"
+        },
+        {
+          "text": "I need to know about my vision plan"
+        }
+      ]
+    },
+    {
+      "intent": "still-here",
+      "examples": [
+        {
+          "text": "Come back"
+        },
+        {
+          "text": "I wasn't done"
+        },
+        {
+          "text": "I need more help"
+        },
+        {
+          "text": "I wasn't finished"
+        },
+        {
+          "text": "Still talking with me?"
+        },
+        {
+          "text": "I'm not done"
+        },
+        {
+          "text": "k"
+        }
+      ]
+    },
+    {
+      "intent": "email-final",
+      "examples": [
+        {
+          "text": "No, send the email"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey twin"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "owner",
+      "examples": [
+        {
+          "text": "Who owns the car?"
+        },
+        {
+          "text": "Whose vehicle is this?"
+        },
+        {
+          "text": "Who is the owner of the vehicle?"
+        },
+        {
+          "text": "Tell me the owner of the vehicle"
+        },
+        {
+          "text": "Owner of the car?"
+        },
+        {
+          "text": "Who's the owner?"
+        }
+      ],
+      "description": "Info about car/vehicle"
+    },
+    {
+      "intent": "suspense6",
+      "examples": [
+        {
+          "text": "2 0 1 final confirmation"
+        },
+        {
+          "text": "2 oh 1"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Suggestive_modification",
+      "examples": [],
+      "description": ""
+    },
+    {
+      "intent": "suspensefirst",
+      "examples": [
+        {
+          "text": "201 teletype 320 connect me to records"
+        },
+        {
+          "text": "201 teletype please"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "vehicle_identity",
+      "examples": [
+        {
+          "text": "vehicle details of"
+        },
+        {
+          "text": "Need information about vehicle ahead"
+        },
+        {
+          "text": "Tell me details of the vehicle ahead"
+        },
+        {
+          "text": "I want to know the details of @Licenseplatenumber"
+        },
+        {
+          "text": "Tell me details of @Licenseplatenumber"
+        },
+        {
+          "text": "10-60 10-27"
+        },
+        {
+          "text": "10-18 tell me 10-27"
+        },
+        {
+          "text": "10-18 10-61 10-27"
+        },
+        {
+          "text": "10-60 need 10-28"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "hierarchy-contactlist",
+      "examples": [
+        {
+          "text": "Connect me with Marion County Police Department"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "hierarchy-group",
+      "examples": [
+        {
+          "text": "Need a 34 exchange dispatch for the bombed venue"
+        },
+        {
+          "text": "Who is assigned for patrolling at 34th Street ?"
+        },
+        {
+          "text": "Had a 1064 call for urgent dispatch at 1pm"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "postnot",
+      "examples": [
+        {
+          "text": "Ok thanks"
+        },
+        {
+          "text": "Any suggested Pre E M T arrival tasks?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "greeting",
+      "examples": [
+        {
+          "text": "Ana"
+        },
+        {
+          "text": "Don't go"
+        },
+        {
+          "text": "Good afternoon"
+        },
+        {
+          "text": "It's me again"
+        },
+        {
+          "text": "Hi Ana"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hey Ana"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Anya"
+        }
+      ]
+    },
+    {
+      "intent": "current-loc",
+      "examples": [
+        {
+          "text": "Send me a dispatch unit"
+        },
+        {
+          "text": "Need a dispatch unit now"
+        },
+        {
+          "text": "Need EMT immediately"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "dispatch_location",
+      "examples": [
+        {
+          "text": "Send me more units"
+        },
+        {
+          "text": "Where is the nearest dispatch unit?"
+        },
+        {
+          "text": "Where is the nearest branch?"
+        },
+        {
+          "text": "Where should I go to cancel my policy?"
+        },
+        {
+          "text": "nearest office to place"
+        },
+        {
+          "text": "how far is your office?"
+        },
+        {
+          "text": "where is your office?"
+        },
+        {
+          "text": "Where can I locate your branches?"
+        },
+        {
+          "text": "my current location"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "record_history",
+      "examples": [
+        {
+          "text": "Does the owner have any criminal records?"
+        },
+        {
+          "text": "Any criminal records?"
+        },
+        {
+          "text": "Give me info about the owner's history"
+        },
+        {
+          "text": "Info about criminal history?"
+        },
+        {
+          "text": "What is the driving record of the owner?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "start",
+      "examples": [
+        {
+          "text": "Hi Watson"
+        },
+        {
+          "text": "Hola Zenext"
+        },
+        {
+          "text": "Hey Zenext"
+        },
+        {
+          "text": "Hey Watson"
+        },
+        {
+          "text": "Salut Zenext"
+        },
+        {
+          "text": "Hello Watson"
+        },
+        {
+          "text": "Watson"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "positive",
+      "examples": [
+        {
+          "text": "thank you Ana"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "that's great"
+        },
+        {
+          "text": "you're awesome"
+        },
+        {
+          "text": "I really appreciate it"
+        },
+        {
+          "text": "thank you so much"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "I love you"
+        },
+        {
+          "text": "fantastic"
+        },
+        {
+          "text": "muchas gracias"
+        },
+        {
+          "text": "this is fantastic"
+        }
+      ]
+    },
+    {
+      "intent": "send_email",
+      "examples": [
+        {
+          "text": "Connect me to the Chief of Police"
+        },
+        {
+          "text": "Connect me to the Deputy Commander"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "roleaccess",
+      "examples": [
+        {
+          "text": "Connect me to the Deputy Commissioner"
+        },
+        {
+          "text": "Connect me to the Chief of Police"
+        },
+        {
+          "text": "Connect me to the Sheriff"
+        },
+        {
+          "text": "Connect me to Deputy Commander"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "send-email2",
+      "examples": [
+        {
+          "text": "Send an email with the content"
+        },
+        {
+          "text": "Send an email"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "suspicious",
+      "examples": [
+        {
+          "text": "201 I see a suspicious person looking into cars in the University Center parking lot. White male black shirt dark hair."
+        },
+        {
+          "text": "201 I see a suspicious person in 77 hundred block of Nob Hill. White male black hat blue shirt dark hair."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "passenger_emergency",
+      "examples": [
+        {
+          "text": "Lady in labor emergency"
+        },
+        {
+          "text": "Unconscious female in car backseat"
+        },
+        {
+          "text": "Major cardiac arrest emergency"
+        },
+        {
+          "text": "major crash at the Greenwood Stop 18"
+        },
+        {
+          "text": "excessive drug intake emergency"
+        },
+        {
+          "text": "hit and run case"
+        },
+        {
+          "text": "Found woman unconscious in the driver's seat"
+        },
+        {
+          "text": "Woman unconscious in the drivers seat"
+        },
+        {
+          "text": "car accident need assistance immediately"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "suspense5",
+      "examples": [
+        {
+          "text": "2 oh 1 can you confirm"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "alert",
+      "examples": [
+        {
+          "text": "Send dispatch unit immediately."
+        },
+        {
+          "text": "Notify dispatch unit nearby."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "suspense7",
+      "examples": [
+        {
+          "text": "Mike, I need you to turn around put your hands down to your side."
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "procedures",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "eye wear",
+          "synonyms": [
+            "bifocals",
+            "contacts",
+            "correction",
+            "glasses",
+            "laser",
+            "laser treatment",
+            "lasik",
+            "lenses",
+            "specks",
+            "vision correction"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "physiotherapy",
+          "synonyms": [
+            "massage",
+            "muscle pain",
+            "muscle therapy",
+            "myofascial",
+            "physical therapist",
+            "physical therapy",
+            "rehabilitation",
+            "stretching",
+            "therapy exercises"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "orthodontics",
+          "synonyms": [
+            "braces",
+            "smile correction",
+            "straighten"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "psychologist",
+          "synonyms": [
+            "addiction",
+            "counseling",
+            "couples counseling",
+            "depression",
+            "family counseling",
+            "head doctor",
+            "ptsd",
+            "shrink",
+            "therapist",
+            "therapy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "teeth cleaning",
+          "synonyms": [
+            "biannual",
+            "binannual checkup",
+            "checkup with dentist",
+            "dental checkup",
+            "flossing",
+            "flouride",
+            "teeth cleaned"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tooth repair",
+          "synonyms": [
+            "bridge",
+            "cap",
+            "cavity",
+            "chipped tooth",
+            "crack",
+            "crown",
+            "filling",
+            "implant",
+            "post",
+            "root canal",
+            "tooth ache",
+            "tooth pain",
+            "tooth removal"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "chiropractor",
+          "synonyms": [
+            "adjustment",
+            "back",
+            "back adjusted",
+            "back doctor",
+            "back pain",
+            "chiropractic",
+            "massage",
+            "spine"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "eye exam",
+          "synonyms": [
+            "annual exam",
+            "check vision",
+            "eye exams"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "city",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Indianapolis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bloomington",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "details",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "coverage",
+          "synonyms": [
+            "covered",
+            "insurance covers",
+            "percentage"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "code",
+          "synonyms": [
+            "billing code",
+            "billing information",
+            "doctor code",
+            "number for form"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "end",
+          "synonyms": [
+            "end date",
+            "end of coverage",
+            "last",
+            "plan end",
+            "plan termination"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "term",
+          "synonyms": [
+            "billing period",
+            "period"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "start",
+          "synonyms": [
+            "first",
+            "start date"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "license",
+          "synonyms": [
+            "AO09876"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "limit",
+          "synonyms": [
+            "balance",
+            "cash",
+            "deductible",
+            "remaining"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-person",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "phoneticCodes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1765",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1054",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1026",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1 Alpha 1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1032",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "text",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "phone number",
+          "patterns": [
+            "(\\d{10})"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "emailcontent",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Need to upgrade Peterson units by end of this week",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "We have to upgrade all the units by the end of this month.",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "response",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "alright",
+            "correct",
+            "fine",
+            "I guess",
+            "I think so",
+            "maybe",
+            "si",
+            "sure",
+            "totally",
+            "ya",
+            "yah",
+            "ye",
+            "yeah",
+            "yep",
+            "you bet",
+            "yup"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "do not",
+            "don't",
+            "false",
+            "negative",
+            "nope",
+            "not",
+            "not right",
+            "not that"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "alert",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "email authority",
+          "synonyms": [
+            "email ",
+            "text"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "state",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Kentucky",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Illinois",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Indiana",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "email",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "dc@pol.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "swmouli.19@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "commpol@pol.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chief@pol.com",
+          "synonyms": [
+            "[a-z1-2]@"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "drivers_license",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "0912342",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "4870131098",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1209340912",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-location",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "location",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Pittsburgh",
+          "synonyms": [
+            "5000 Forbes Street, Pittsburgh"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Downtown Indianapolis",
+          "synonyms": [
+            "82nd street",
+            "1st street"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Licenseplatenumber",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "AR09123",
+          "synonyms": [
+            "Alfa, Romeo, Zero, 1, 2, 3",
+            "AlfaRomeoZero 123"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "IN1245",
+          "synonyms": [
+            "India, November 1245"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "VIN",
+          "synonyms": [
+            "AS10987643",
+            "TD0987654"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "licenseplate",
+          "synonyms": [
+            "NY091234",
+            "INE0981"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "W09871",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NY12D4",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LD0912",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "skill_id": "5ebbc12b-a72d-4378-bae3-0618decb4877",
+  "description": "Skill to be used for testing and training.",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_1_1476991423783",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_11_1472598207218"
+      },
+      "conditions": "input.text.matches('^\\d{4}\\-(0?[1-9]|1[012])\\-(0?[1-9]|[12][0-9]|3[01])$')",
+      "dialog_node": "node_2_1476991501853"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Oh no. Let's get this fixed."
+      },
+      "parent": "node_16_1472607557405",
+      "conditions": "#negative",
+      "dialog_node": "node_3_1472761519777",
+      "previous_sibling": "node_2_1472761508426"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Happy to help!"
+      },
+      "parent": "node_16_1472607557405",
+      "conditions": "#positive",
+      "dialog_node": "node_2_1472761508426"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "I have a date of <? input.text ?>. Is that right?"
+      },
+      "parent": "node_8_1472590259253",
+      "context": {
+        "claim_date": "<? input.text ?>",
+        "claim_step": "verifyDate"
+      },
+      "conditions": "input.text.matches('^\\d{4}\\-(0?[1-9]|1[012])\\-(0?[1-9]|[12][0-9]|3[01])$')",
+      "dialog_node": "node_11_1472598207218"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "I can't talk about that. But I can tell you about your vision, dental, mental, and physical plans."
+      },
+      "parent": "node_12_1476151077484",
+      "conditions": "anything_else",
+      "dialog_node": "node_14_1476151372574",
+      "previous_sibling": "node_13_1476151143532"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_12_1476151077484",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1470846944134"
+      },
+      "conditions": "@types",
+      "dialog_node": "node_13_1476151143532"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1475611948267",
+      "metadata": {},
+      "variable": "$person",
+      "dialog_node": "slot_1_1523340074454",
+      "previous_sibling": "slot_9_1573060978787"
+    },
+    {
+      "type": "slot",
+      "title": "slot_9_1573060978787",
+      "output": {},
+      "parent": "node_6_1475611948267",
+      "variable": "$start",
+      "dialog_node": "slot_9_1573060978787"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "What was the date of your appointment? I prefer YYYY-MM-DD to make filing easier for me."
+      },
+      "parent": "node_7_1472590161269",
+      "context": {
+        "claim_step": "date",
+        "claim_procedure": "@procedures"
+      },
+      "conditions": "@procedures",
+      "dialog_node": "node_8_1472590259253"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "I can't file claims for that."
+      },
+      "parent": "node_3_1472589537910",
+      "conditions": "anything_else",
+      "dialog_node": "node_18_1475623617512",
+      "previous_sibling": "node_6_1472590118317"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Alright, I can do a @types claim. I also need to know the specific procedure you had done."
+      },
+      "parent": "node_3_1472589537910",
+      "context": {
+        "claim_step": "procedure",
+        "chosen_service": "@types"
+      },
+      "conditions": "@types",
+      "dialog_node": "node_6_1472590118317",
+      "previous_sibling": "node_5_1472590033232"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Got it. Now what was the date of your appointment?"
+      },
+      "parent": "node_3_1472589537910",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1472590259253"
+      },
+      "conditions": "@procedures",
+      "dialog_node": "node_5_1472590033232"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "What did you need to know about @procedures?"
+      },
+      "parent": "node_2_1475683599072",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_14_1470851039515"
+      },
+      "conditions": "@procedures",
+      "dialog_node": "node_4_1476111372486"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1571518313788",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1572649694171"
+    },
+    {
+      "type": "standard",
+      "title": "Passenger identification",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Notifying EMS for emergency dispatch to your location : Gates Building 5000 Forbes Ave, Pittsburgh"
+              },
+              {
+                "text": "Notifying EMT for immediate dispatch to your location: Gates Building 6th floor 5000 Forbes Avenue"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 10000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Text notification sent to EMT for immediate assistance."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1571517088076",
+      "context": {},
+      "conditions": "#Passenger_information && @drivers_license",
+      "dialog_node": "node_5_1571518313788"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Alright, last thing. What is the amount you want to claim?"
+      },
+      "parent": "node_12_1472604720806",
+      "context": {
+        "claim_step": "amount",
+        "claim_provider": "<? input.text ?>"
+      },
+      "conditions": "input.text",
+      "dialog_node": "node_15_1472604976973"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Well, that's not a procedure I know about. I can talk about <? $procedures ?> if you're still interested."
+      },
+      "parent": "node_11_1470849685631",
+      "conditions": "anything_else",
+      "dialog_node": "node_11_1475612980634",
+      "previous_sibling": "node_14_1470851039515"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "What information do you need about @procedures?"
+      },
+      "parent": "node_11_1470849685631",
+      "context": {
+        "chosen_procedure": "@procedures"
+      },
+      "conditions": "@procedures",
+      "dialog_node": "node_14_1470851039515"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Filing your claim now!"
+      },
+      "parent": "node_15_1472604976973",
+      "context": {
+        "claim_step": "verify",
+        "claim_amount": "<? input.text ?>"
+      },
+      "conditions": "input.text",
+      "dialog_node": "node_16_1472607557405"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1523343180294",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_8_1523343180294",
+      "previous_sibling": "handler_7_1523343180294"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1523343180294",
+      "context": {
+        "location": "@sys-location"
+      },
+      "metadata": {},
+      "conditions": "@sys-location",
+      "event_name": "input",
+      "dialog_node": "handler_7_1523343180294"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_13_1472604740084",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_11_1472598207218"
+      },
+      "conditions": "input.text.matches('^\\d{4}\\-(0?[1-9]|1[012])\\-(0?[1-9]|[12][0-9]|3[01])$')",
+      "dialog_node": "node_1_1472758289866"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Okay. Please enter the date again. Use YYYY-MM-DD."
+      },
+      "parent": "node_11_1472598207218",
+      "context": {
+        "claim_step": "date"
+      },
+      "conditions": "@response:no",
+      "dialog_node": "node_13_1472604740084",
+      "previous_sibling": "node_12_1472604720806"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_11_1472598207218",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_11_1472598207218"
+      },
+      "conditions": "input.text.matches('^\\d{4}\\-(0?[1-9]|1[012])\\-(0?[1-9]|[12][0-9]|3[01])$')",
+      "dialog_node": "node_14_1472604886510",
+      "previous_sibling": "node_13_1472604740084"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Okay. Please enter the date again. Use YYYY-MM-DD."
+      },
+      "parent": "node_11_1472598207218",
+      "context": {
+        "claim_step": "date"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1476991423783",
+      "previous_sibling": "node_14_1472604886510"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Fantastic. What is the name of the provider or physician you went to?"
+      },
+      "parent": "node_11_1472598207218",
+      "context": {
+        "claim_step": "provider"
+      },
+      "conditions": "@response:yes",
+      "dialog_node": "node_12_1472604720806"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "I can find some info on your vision, dental, mental, and physical plans."
+      },
+      "parent": "node_1_1472670944646",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1470846944134"
+      },
+      "conditions": "#list_options",
+      "dialog_node": "node_5_1471288584916"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_6_1472590118317",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1472590259253"
+      },
+      "conditions": "@procedures",
+      "dialog_node": "node_19_1475623879868",
+      "previous_sibling": "node_7_1472590161269"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "The procedure categories are:  <? $procedures ?>. Pick one of those for me."
+      },
+      "parent": "node_6_1472590118317",
+      "conditions": "#list_options",
+      "dialog_node": "node_7_1472590161269"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Hey how can I assist you?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_1_1523340074454",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_3_1523340074454",
+      "previous_sibling": "handler_2_1523340074454"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_1_1523340074454",
+      "context": {
+        "person": "@sys-person"
+      },
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_2_1523340074454"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "I can tell you about the limit, coverage, term, start, end, or code. You probably are interested in coverage."
+      },
+      "parent": "node_14_1470851039515",
+      "conditions": "#list_options",
+      "dialog_node": "node_6_1471294106656",
+      "previous_sibling": "node_1_1471294589032"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": ""
+      },
+      "parent": "node_14_1470851039515",
+      "context": {
+        "chosen_detail": "@details"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1471295022480"
+      },
+      "conditions": "@details",
+      "dialog_node": "node_1_1471294589032"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "For <? $chosen_service ?> the procedures are <? $procedureList ?>. Which one of those can I look up for you?"
+      },
+      "parent": "node_8_1470846944134",
+      "conditions": "#list_options",
+      "dialog_node": "node_11_1470849685631",
+      "previous_sibling": "node_3_1471903859772"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_8_1470846944134",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_14_1470851039515"
+      },
+      "conditions": "@procedures",
+      "dialog_node": "node_3_1471903859772"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "I don't have anything for '<? input.text ?>', but I can tell you the limit, coverage, term, start, end, or code for your plan."
+      },
+      "parent": "node_6_1471294106656",
+      "conditions": "anything_else",
+      "dialog_node": "node_13_1475622927885",
+      "previous_sibling": "node_2_1471295022480"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Grabbing the  @details for <? $chosen_procedure ?>."
+      },
+      "parent": "node_6_1471294106656",
+      "context": {
+        "chosen_detail": "@details"
+      },
+      "conditions": "@details",
+      "dialog_node": "node_2_1471295022480"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1572647762185",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1572647762215",
+      "previous_sibling": "handler_5_1572647762215"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_8_1572647762185",
+      "event_name": "input",
+      "dialog_node": "handler_5_1572647762215"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1523343155066",
+      "metadata": {},
+      "variable": "$location",
+      "dialog_node": "slot_6_1523343180294"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_11_1475612980634",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_14_1470851039515"
+      },
+      "conditions": "@procedures",
+      "dialog_node": "node_12_1475613151217"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_3_1573060978789",
+      "output": {
+        "generic": [
+          {
+            "time": 1000,
+            "typing": true,
+            "response_type": "pause"
+          }
+        ]
+      },
+      "parent": "slot_9_1573060978787",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1573060978789",
+      "previous_sibling": "handler_6_1573060978789"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_6_1573060978789",
+      "output": {},
+      "parent": "slot_9_1573060978787",
+      "context": {
+        "start": "#start"
+      },
+      "conditions": "#start",
+      "event_name": "input",
+      "dialog_node": "handler_6_1573060978789"
+    },
+    {
+      "type": "standard",
+      "title": "Suspense arr7",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Arrest confirmed and noted."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1572487784049",
+      "conditions": "#suspense7",
+      "dialog_node": "node_7_1572487893478"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1569779199575",
+      "dialog_node": "slot_8_1572647762185"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "The vehicle is Toyota Camry, year 2012."
+      },
+      "context": {},
+      "conditions": "#vehicle_identity ||  @Licenseplatenumber",
+      "dialog_node": "node_1_1569717898440",
+      "previous_sibling": "node_5_1476113231936"
+    },
+    {
+      "type": "standard",
+      "title": "Suspicious arrests",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ten for two zero one zero nine twenty-three "
+              },
+              {
+                "text": "ten for two zero one zero nine twenty-two "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#suspicious",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1572484978400",
+      "previous_sibling": "node_1_1571519018773"
+    },
+    {
+      "type": "standard",
+      "title": "Assistance",
+      "output": {
+        "text": {
+          "values": [
+            "Sending dispatch to @location.",
+            "Sending EMT to @location."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "location": "@location",
+        "sys-location": "@location"
+      },
+      "conditions": "#current-loc &&  @location ||   @sys-location",
+      "dialog_node": "node_9_1472596541094",
+      "previous_sibling": "node_12_1476151077484"
+    },
+    {
+      "type": "standard",
+      "title": "Suspense arr2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "can you copy"
+              },
+              {
+                "text": "need more details"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#suspense3",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1572486932810",
+      "previous_sibling": "node_4_1572486372448"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You asked for a dispatch unit to reach you at your current location 2000 Progress Parkway, Schaumburg."
+              },
+              {
+                "text": "A dispatch unit will reach at your current location 83rd Street, West Indianapolis  in 6 minutes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "#location_sharing",
+      "dialog_node": "node_9_1569737438036",
+      "previous_sibling": "node_3_1570321410211"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Hello $person ! How can I can help you today?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#greeting && #General_Greetings",
+      "dialog_node": "node_4_1470846498634",
+      "previous_sibling": "node_4_1472589946048"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "I can talk about your vision, dental, mental, and physical plans."
+      },
+      "conditions": "#list_options",
+      "dialog_node": "node_5_1476113231936",
+      "previous_sibling": "node_8_1569739841334"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Couldnt hear what you said, could you please repeat?"
+      },
+      "conditions": "intents.size() == 0",
+      "dialog_node": "node_9_1475612074357",
+      "previous_sibling": "node_6_1475611948267"
+    },
+    {
+      "type": "standard",
+      "title": "Suspense arr 5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ten four 13 two oh 3"
+              },
+              {
+                "text": "five two 16 oh 4"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#suspense5",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1572487457583",
+      "previous_sibling": "node_1_1572487233597"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "I hope it went smoothly. What was the date of your appointment? I prefer YYYY-MM-DD to make filing easier for me."
+      },
+      "context": {
+        "claim_step": "date",
+        "claim_procedure": "@procedures"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1472590259253"
+      },
+      "conditions": "@procedures && #claim_procedure",
+      "dialog_node": "node_4_1472589946048",
+      "previous_sibling": "node_3_1472589537910"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, opening the email client now."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#email-final",
+      "dialog_node": "node_6_1573848064064",
+      "previous_sibling": "node_5_1573846368762"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "I'm sorry you feel that way."
+      },
+      "conditions": "#negative",
+      "dialog_node": "node_1_1472578460792",
+      "previous_sibling": "node_1_1475683470899"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "I can't help you with that. I'm just a bot to help you with your insurance documents."
+      },
+      "conditions": "#no-response",
+      "dialog_node": "node_1_1475683470899",
+      "previous_sibling": "node_2_1475683599072"
+    },
+    {
+      "type": "frame",
+      "title": "Current location",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sending a dispatch unit to "
+              },
+              {
+                "text": "Sending a dispatch unit to "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 3000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "title": "Your current location",
+            "options": [
+              {
+                "label": "5000 Forbes Ave, Pittsburgh, Pennsylvania",
+                "value": {
+                  "input": {
+                    "text": "pittsburgh main"
+                  }
+                }
+              },
+              {
+                "label": "5040 Forbes Ave., Pittsburgh",
+                "value": {
+                  "input": {
+                    "text": "cmu garage"
+                  }
+                }
+              }
+            ],
+            "description": "location",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#current-loc",
+      "dialog_node": "node_4_1569779199575",
+      "previous_sibling": "node_10_1569724848323"
+    },
+    {
+      "type": "standard",
+      "title": "Post EMT Notification",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Complete the following pre-EMT activity. Record patient vitals. In case of cardiopulmonary resuscitation (CPR), say 1 to connect to a nearby paramedic."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 6000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Record patient vitals. In case of cardiopulmonary resuscitation (CPR), say 1 to connect to a nearby paramedic."
+              },
+              {
+                "text": "Record patient vitals, and lay down the patient. In case of cardiopulmonary resuscitation (CPR),say 1 to connect to a nearby paramedic."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#postnot",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1571519018773",
+      "previous_sibling": "node_1_1572757868097"
+    },
+    {
+      "type": "standard",
+      "title": "Suspens",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "to zero 1"
+              },
+              {
+                "text": "to zero 1  1 4"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#suspensefirst",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1572485474589",
+      "previous_sibling": "node_10_1572484978400"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Always happy to help $person!"
+      },
+      "metadata": {},
+      "conditions": "#positive",
+      "dialog_node": "node_1_1472655156255",
+      "previous_sibling": "node_1_1472578460792"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What would be the content?"
+              },
+              {
+                "text": "Content of the email?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#send-email2",
+      "dialog_node": "node_10_1573845793567",
+      "previous_sibling": "node_8_1573845616432"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure. Connecting to Indy Metropolitan Police Control 32"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#controlroom_connect",
+      "dialog_node": "node_3_1569740247149",
+      "previous_sibling": "node_2_1571517088076"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you like to add more?"
+              },
+              {
+                "text": "Would you want me to repeat?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@emailcontent",
+      "dialog_node": "node_5_1573846368762",
+      "previous_sibling": "node_10_1573845793567"
+    },
+    {
+      "type": "standard",
+      "title": "Suspense arr3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "2 0 1 1099 Michael R Evans white male DOB of 12 20 88 outstanding warrant Jacksonville Florida auto sale 0 927 "
+              },
+              {
+                "text": "you in a 2 0 1 1099 Joseph Dylan white male DOB of 4 18 87 outstanding warrant Huntsville Alabama auto sale 0 927 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#suspense4",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1572487233597",
+      "previous_sibling": "node_2_1572486932810"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Which department would you like to connect to? Please choose from the following options: ONE Marion County Sheriff's Office, TWO Indy MetroPolitan Police Control Room , THREE Indy Metropolitan Police -Southeast, FOUR Control Room 32."
+              },
+              {
+                "text": "Which department would you like to connect to? Please choose from the following options: ONE Marion County Sheriff's Office, TWO Indy MetroPolitan Police Control Room , THREE Indy Metropolitan Police -Southeast, FOUR Control Room 32."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#hierarchy-contactlist",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1569747289871",
+      "previous_sibling": "node_9_1569737438036"
+    },
+    {
+      "type": "standard",
+      "title": "Suspense arr",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ten-four 201 stand by zero 925"
+              },
+              {
+                "text": "ten-four 201 stand by zero 3 2 8 9"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "you’re in a to 0 1 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#suspense2",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1572486372448",
+      "previous_sibling": "node_1_1572485474589"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Officer Madden informed the unit for the 1064a dispatch at 2:30pm CST."
+              },
+              {
+                "text": "Sure Erik. 34 exchange unit ready to reach on time."
+              },
+              {
+                "text": "Officer Lauren will take over the patrolling at 4pm CST."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#hierarchy-group",
+      "dialog_node": "node_8_1569739841334",
+      "previous_sibling": "node_3_1569740247149"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "I'm not confident enough to answer that one. Maybe try something else?"
+      },
+      "conditions": "intents[0].confidence < 0.80",
+      "dialog_node": "node_7_1475612009751",
+      "previous_sibling": "node_1_1472655156255"
+    },
+    {
+      "type": "standard",
+      "title": "Passenger emergency",
+      "output": {
+        "generic": [
+          {
+            "time": 1000,
+            "typing": false,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Any ID on the passenger?"
+              },
+              {
+                "text": "Any identification of passenger?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@phoneticCodes &&  #passenger_emergency",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1571517088076",
+      "previous_sibling": "node_9_1569747289871"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The vehicle is registered with Tom Hanks and Betty Raden."
+              },
+              {
+                "text": "The vehicle is registered with Jordan Gidden, Philadephia."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#owner",
+      "dialog_node": "node_2_1569720017667",
+      "previous_sibling": "node_5_1569719843627"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Alright, I can tell you more about your @types plan. Let's narrow it down a little. Which procedure do you need information for?"
+      },
+      "context": {
+        "chosen_service": "@types"
+      },
+      "conditions": "#select_service && @types",
+      "dialog_node": "node_8_1470846944134",
+      "previous_sibling": "node_1_1472670944646"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Let me take care of that paperwork for you. What did you have done?"
+      },
+      "conditions": "#make_claim",
+      "dialog_node": "node_3_1472589537910",
+      "previous_sibling": "node_9_1472596541094"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "I can get the @details for you. The car is registered under Tom Hanks from Albany, New York."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "chosen_detail": "@details"
+      },
+      "conditions": "#get_info && @details",
+      "dialog_node": "node_12_1476151077484",
+      "previous_sibling": "node_8_1470846944134"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Goodbye."
+      },
+      "conditions": "#goodbye",
+      "dialog_node": "node_1_1471530144227",
+      "previous_sibling": "node_4_1470846498634"
+    },
+    {
+      "type": "standard",
+      "title": "Email send",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you like to send a text or an email?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#roleaccess",
+      "dialog_node": "node_8_1573845616432",
+      "previous_sibling": "node_4_1572487457583"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Sure. What can I help you with?"
+      },
+      "conditions": "#still-here",
+      "dialog_node": "node_2_1475683599072",
+      "previous_sibling": "node_1_1471530144227"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Okay, let me do the boring reading for you. What service did you need to know more about?"
+      },
+      "conditions": "#get_info && !(@details) && !(@procedures) && !(@types)",
+      "dialog_node": "node_1_1472670944646",
+      "previous_sibling": "node_1_1569717898440"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Sorry, I don't understand that one."
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_10_1475612266683",
+      "previous_sibling": "node_5_1523343155066"
+    },
+    {
+      "type": "standard",
+      "title": "Suspense arr 6",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "2 oh 1 a warrant confirmed Jacksonville Florida 0 9 29 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_7_1572487893478"
+      },
+      "conditions": "#suspense6",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1572487784049",
+      "previous_sibling": "node_6_1573848064064"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "One arrest, and another minor traffic violation."
+              },
+              {
+                "text": "An adultery and an arrest."
+              },
+              {
+                "text": "Three traffic violations."
+              },
+              {
+                "text": "One hit and run."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#record_history",
+      "dialog_node": "node_4_1569720441927",
+      "previous_sibling": "node_2_1569720017667"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "text": {
+          "values": [
+            "Oh! you are from $location. Sharing the map of the nearest fire unit: https://www.google.com/maps?daddr=$location"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "@location && @city",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1523343155066",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_7_1475612009751",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "Passenger identification",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Notifying EMS for emergency dispatch to your location Gates Building, 5000 Forbes Avenue, Pittsburgh Pennsyvania."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Text notification sent to Colsbury EMT unit for immediate assistance."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Passenger_information && @drivers_license",
+      "dialog_node": "node_1_1572757868097",
+      "previous_sibling": "node_4_1572757541301"
+    },
+    {
+      "type": "standard",
+      "title": "assign location",
+      "context": {
+        "city": "@location"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1569737438036"
+      },
+      "conditions": "@location",
+      "dialog_node": "node_3_1570321410211",
+      "previous_sibling": "node_6_1572487784049"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "One ongoing case code 1325c. Lodged January 31, 2018."
+              },
+              {
+                "text": "One compliant lodged for kidnap of a minor and human trafficking. Case closed December 2, 2017."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#investigation",
+      "dialog_node": "node_3_1569724584326",
+      "previous_sibling": "node_4_1569720441927"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vehicle Make: Nissan Versa, Color: Red, Year 2018"
+              },
+              {
+                "text": "Vehicle Make:Toyota Corolla, Color: Green, Year 2015."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#vehicle_identity",
+      "dialog_node": "node_5_1569719843627",
+      "previous_sibling": "node_9_1475612074357"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Avoid going near the vehicle. Sending an email to Corydon Unit, located 5 miles from you."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#alert",
+      "dialog_node": "node_10_1569724848323",
+      "previous_sibling": "node_3_1569724584326"
+    },
+    {
+      "type": "standard",
+      "title": "Passenger emergency",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Any ID on the passenger?"
+              },
+              {
+                "text": "Any identification document found?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": " #passenger_emergency",
+      "dialog_node": "node_4_1572757541301",
+      "previous_sibling": "node_4_1569779199575"
+    },
+    {
+      "type": "frame",
+      "title": "Intro",
+      "output": {
+        "text": "Hey $person! What can I help you with?"
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "conversation_start",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1475611948267",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    }
+  ],
+  "workspace_id": "5ebbc12b-a72d-4378-bae3-0618decb4877",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
